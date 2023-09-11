@@ -6,7 +6,50 @@ theme:
   features:
     - navigation.tabs
     - navigation.path
+    - navigation.expand:
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
 
 nav:
   - 主页: index.md
+  - 导航: link.md
   - 教程: guide.md
+  - 深中知网:
+    - 简介: projects/tree/index.md
+    - 前端:
+      - 开发环境配置: projects/tree/fe/env.md
+    - 查重:
+      - 代码解析: projects/tree/plagiarism/code.md
+  - 食堂显示屏:
+    - 简介: projects/screen/index.md
+
+markdown_extensions:
+  - extra
+  - tables
+  - fenced_code
+  - mdx_math:
+      enable_dollar_delimiter: True
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
