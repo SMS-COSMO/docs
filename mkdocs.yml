@@ -30,8 +30,10 @@ nav:
     - 简介: projects/tree/index.md
     - 前端:
       - 开发环境配置: projects/tree/fe/env.md
-    - 查重:
+    - 查重服务器:
       - 代码解析: projects/tree/plagiarism/code.md
+      - 部署: projects/tree/plagiarism/run.md
+      - API 文档: projects/tree/plagiarism/api.md
   - 食堂显示屏:
     - 简介: projects/screen/index.md
 
