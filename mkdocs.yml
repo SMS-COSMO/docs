@@ -6,7 +6,10 @@ theme:
   features:
     - navigation.tabs
     - navigation.path
-    - navigation.expand:
+    - navigation.expand
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
   icon:
     admonition:
       note: octicons/tag-16
@@ -36,15 +39,21 @@ nav:
       - API 文档: projects/tree/plagiarism/api.md
   - 食堂显示屏:
     - 简介: projects/screen/index.md
+    - 后端:
+      - 开发环境配置: projects/screen/be/env.md
 
 markdown_extensions:
   - extra
   - tables
   - fenced_code
+  - pymdownx.tabbed:
+      alternate_style: true
   - mdx_math:
       enable_dollar_delimiter: True
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
