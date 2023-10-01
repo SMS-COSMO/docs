@@ -1,0 +1,4 @@
+- [香橙 PI 3 LTS 官方文档 & 下载](http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-3-LTS.html)
+- [精灵屏官网](http://www.vnnox.com/)
+- [精灵屏 T-SDK 下载链接](https://download.vnnox.com/vnnox_software/ViplexCore_3.6.3.0101_Ubuntu.zip?ref=web_vnnox_cn)
+- [精灵屏 T-SDK 文档](https://docapi.vnnox.com/web/#/15?page_id=1651)
